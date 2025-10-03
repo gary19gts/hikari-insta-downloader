@@ -219,4 +219,9 @@ If Hikari has been helpful to you, please consider supporting its development:
 ✨ Even the smallest donation can bring a big light during these tough times.  
 Even $1 can help more than you think 😀🙏
 
+<a href="https://ko-fi.com/gary19gts" target="_blank">
+  <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Buy Me a Coffee at ko-fi.com" style="height: 45px !important; width: 162px !important;">
+</a>
+
 Thank you so much for standing with me! ✨  
+
