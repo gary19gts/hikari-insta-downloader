@@ -1,0 +1,72 @@
+{
+    "_license": "Copyright (C) 2025 Gary19gts - Licensed under GNU Affero General Public License v3.0",
+    "_license_url": "https://www.gnu.org/licenses/agpl-3.0.html",
+    "app_info": {
+        "name": "Hikari Insta Downloader",
+        "version": "1.2",
+        "date": "October 2025",
+        "author": "Gary19gts",
+        "license": "AGPL-3.0"
+    },
+    "default_settings": {
+        "theme": "light",
+        "default_engine": "instaloader",
+        "auto_open_folder": false,
+        "show_preview": true,
+        "log_level": "INFO"
+    },
+    "engines": {
+        "yt-dlp": {
+            "name": "yt-dlp",
+            "description": "Most reliable downloader - Best for videos and reels",
+            "advantages": [
+                "Excellent for video downloads",
+                "Best for Instagram Reels",
+                "Supports various video formats and quality options",
+                "Regular updates for platform changes",
+                "Active community support"
+            ],
+            "recommended": false
+        },
+        "instaloader": {
+            "name": "instaloader", 
+            "description": "Specialized Instagram content downloader - Best for photos",
+            "advantages": [
+                "Instagram-specific features",
+                "Excellent for photo downloads",
+                "Preserves metadata and comments",
+                "Detailed post information",
+                "Reliable for image content"
+            ],
+            "recommended": true
+        },
+        "gallery-dl": {
+            "name": "gallery-dl",
+            "description": "Multi-platform content downloader", 
+            "advantages": [
+                "Supports multiple social media platforms",
+                "Consistent API across platforms",
+                "Good configuration options",
+                "Reliable for various sites"
+            ],
+            "recommended": false
+        }
+    },
+    "ui_settings": {
+        "window_size": {
+            "width": 1000,
+            "height": 720
+        },
+        "min_size": {
+            "width": 800,
+            "height": 600
+        },
+        "colors": {
+            "instagram_primary": "#E4405F",
+            "instagram_secondary": "#C13584",
+            "success_color": "#34C759",
+            "warning_color": "#FF9500",
+            "error_color": "#FF3B30"
+        }
+    }
+}

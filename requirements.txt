@@ -1,0 +1,19 @@
+# Hikari Insta Downloader Dependencies
+# Copyright (C) 2025 Gary19gts
+# Licensed under GNU Affero General Public License v3.0
+# https://www.gnu.org/licenses/agpl-3.0.html
+
+# GUI Framework
+customtkinter>=5.2.0
+tkinter
+
+# HTTP Requests
+requests>=2.31.0
+
+# Download Engines (install separately)
+# yt-dlp - pip install yt-dlp
+# instaloader - pip install instaloader  
+# gallery-dl - pip install gallery-dl
+
+# Optional: For better video/audio processing
+# ffmpeg-python>=0.2.0

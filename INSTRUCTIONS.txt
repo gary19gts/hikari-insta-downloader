@@ -1,0 +1,306 @@
+================================================================================
+                        HIKARI INSTA DOWNLOADER v1.2
+                           Installation & Usage Guide
+================================================================================
+
+Copyright (C) 2025 Gary19gts
+Licensed under GNU Affero General Public License v3.0
+https://www.gnu.org/licenses/agpl-3.0.html
+
+================================================================================
+                                QUICK START
+================================================================================
+
+1. Install Python 3.7+ from https://python.org
+2. Run: python install.py
+3. Run: python main.py
+4. Paste Instagram URL and download!
+
+================================================================================
+                            SYSTEM REQUIREMENTS
+================================================================================
+
+- Operating System: Windows 10+, macOS 10.14+, or Linux (Ubuntu 18.04+)
+- Python: Version 3.7 or higher
+- RAM: 512MB minimum, 1GB recommended
+- Storage: 100MB for application + space for downloads
+- Internet: Stable connection required
+
+================================================================================
+                              INSTALLATION
+================================================================================
+
+METHOD 1: AUTOMATIC INSTALLATION (Recommended)
+----------------------------------------------
+1. Open Command Prompt/Terminal in the application folder
+2. Run: python install.py
+3. Wait for all dependencies to install
+4. Done! Skip to "RUNNING THE APPLICATION" section
+
+METHOD 2: MANUAL INSTALLATION
+-----------------------------
+1. Install Python dependencies:
+   python -m pip install -r requirements.txt
+
+2. Install download engines:
+   python -m pip install yt-dlp instaloader gallery-dl
+
+3. Verify installation:
+   python test_installation.py
+
+METHOD 3: SMART LAUNCHER (Auto-checks and installs)
+---------------------------------------------------
+1. Run: python launch.py
+2. Follow on-screen prompts to install missing components
+3. Application will launch automatically when ready
+
+================================================================================
+                           RUNNING THE APPLICATION
+================================================================================
+
+OPTION 1: Direct Launch
+-----------------------
+python main.py
+
+OPTION 2: Smart Launcher (Recommended for first-time users)
+-----------------------------------------------------------
+python launch.py
+
+OPTION 3: Platform Scripts
+--------------------------
+Windows: Double-click run.bat
+macOS/Linux: ./run.sh
+
+================================================================================
+                              HOW TO USE
+================================================================================
+
+STEP 1: GET INSTAGRAM URL
+-------------------------
+- Go to Instagram in your web browser
+- Navigate to the post, reel, or story you want to download
+- Copy the URL from the address bar
+- Supported formats:
+  * Posts: https://www.instagram.com/p/[POST_ID]/
+  * Reels: https://www.instagram.com/reel/[REEL_ID]/
+  * Stories: https://www.instagram.com/stories/[USER]/[STORY_ID]/
+
+STEP 2: PASTE URL IN APPLICATION
+--------------------------------
+- Launch Hikari Insta Downloader
+- Paste the Instagram URL in the "Instagram URL" field
+- The application will automatically detect the content type
+
+STEP 3: SELECT DOWNLOAD ENGINE
+------------------------------
+Choose the best engine for your content:
+
+📸 INSTALOADER (Default - Best for Photos)
+- Excellent for image posts and photo carousels
+- Preserves metadata and high quality
+- Instagram-specialized features
+
+🎥 YT-DLP (Best for Videos)
+- Superior for video content and reels
+- Best video quality options
+- Most reliable for video downloads
+
+🌐 GALLERY-DL (Multi-platform)
+- Good for general use
+- Supports multiple social platforms
+- Consistent performance
+
+STEP 4: CHOOSE OUTPUT FOLDER
+----------------------------
+- Default: Downloads/ folder in application directory
+- Click "Browse" to select a custom folder
+- Click "Open" to view the current output folder
+- Ensure you have write permissions to the selected folder
+
+STEP 5: DOWNLOAD CONTENT
+------------------------
+- Click "Download Content" button
+- Monitor progress in the progress bar
+- Wait for "Download completed successfully!" message
+- Files will be saved to your chosen output folder
+
+================================================================================
+                            DOWNLOAD ENGINES GUIDE
+================================================================================
+
+WHEN TO USE EACH ENGINE:
+------------------------
+
+USE INSTALOADER FOR:
+- Single photos and image posts
+- Photo carousels (multiple images)
+- When you need metadata preservation
+- High-quality image downloads
+
+USE YT-DLP FOR:
+- Video posts and Instagram Reels
+- When you need specific video quality
+- Stories with video content
+- Most reliable video processing
+
+USE GALLERY-DL FOR:
+- Mixed content types
+- When other engines fail
+- Multi-platform downloading needs
+- Consistent API experience
+
+================================================================================
+                              TROUBLESHOOTING
+================================================================================
+
+PROBLEM: "Engine not found" error
+SOLUTION: 
+- Run: python install.py
+- Or manually: pip install yt-dlp instaloader gallery-dl
+
+PROBLEM: Download fails
+SOLUTIONS:
+- Verify the Instagram URL is correct and accessible
+- Check your internet connection
+- Try a different download engine
+- Run diagnostics: Click "Run Diagnostics" button
+- Ensure the content is publicly accessible
+
+PROBLEM: Permission errors
+SOLUTIONS:
+- Choose a different output folder (Desktop, Documents)
+- Run as administrator (Windows) or with sudo (Linux/macOS)
+- Check folder write permissions
+
+PROBLEM: Slow downloads
+SOLUTIONS:
+- Check your internet connection speed
+- Try a different download engine
+- Close other applications using internet
+- Try downloading during off-peak hours
+
+PROBLEM: Application won't start
+SOLUTIONS:
+- Verify Python 3.7+ is installed: python --version
+- Install dependencies: python install.py
+- Check for error messages in terminal
+- Run diagnostics: python test_installation.py
+
+================================================================================
+                               BUILT-IN TOOLS
+================================================================================
+
+DIAGNOSTICS SYSTEM
+------------------
+Click "Run Diagnostics" to check:
+- Python version compatibility
+- Required package availability
+- Download engine installation status
+- Output folder permissions
+- Network connectivity to Instagram
+- System resource availability
+
+UPDATE LIBRARIES
+----------------
+Click "Update Libraries" to:
+- Update all Python packages to latest versions
+- Ensure compatibility with latest Instagram changes
+- Fix potential security vulnerabilities
+- Improve performance and reliability
+
+================================================================================
+                              LEGAL INFORMATION
+================================================================================
+
+IMPORTANT DISCLAIMER:
+This application is intended for downloading your own content or content you 
+have explicit permission to download. Users are responsible for:
+
+✓ Complying with Instagram's Terms of Service
+✓ Respecting copyright and intellectual property rights
+✓ Only downloading content they own or have permission to download
+✓ Following local laws and regulations
+
+LICENSE:
+This software is licensed under GNU Affero General Public License v3.0
+- You can use, modify, and distribute this software freely
+- If you distribute modified versions, you must provide source code
+- See LICENSE file for complete terms
+
+================================================================================
+                                FILE STRUCTURE
+================================================================================
+
+APPLICATION FILES:
+- main.py              Main application
+- config.json          Application configuration
+- requirements.txt     Python dependencies
+- install.py           Automatic installer
+- launch.py            Smart launcher
+- LICENSE              Software license
+- README.md            Detailed documentation
+- INSTRUCTIONS.txt     This file
+
+GENERATED FILES:
+- Downloads/           Default download folder (created automatically)
+- hikari_downloader.log Application log file (created at runtime)
+
+================================================================================
+                              SUPPORT & UPDATES
+================================================================================
+
+GETTING HELP:
+1. Run built-in diagnostics first
+2. Check the log file: hikari_downloader.log
+3. Verify all dependencies are installed
+4. Ensure Instagram URL is valid and accessible
+
+UPDATES:
+- Use "Update Libraries" button in the application
+- Or manually: pip install --upgrade yt-dlp instaloader gallery-dl
+
+VERSION INFORMATION:
+- Application Version: 1.2
+- Release Date: October 2025
+- Developer: Gary19gts
+
+================================================================================
+                                 TIPS & TRICKS
+================================================================================
+
+PERFORMANCE TIPS:
+- Close unnecessary applications while downloading
+- Use wired internet connection for better stability
+- Download during off-peak hours for faster speeds
+- Keep download engines updated for best compatibility
+
+USAGE TIPS:
+- Test with a simple post first to verify everything works
+- Use instaloader for photos, yt-dlp for videos
+- Check the preview area to confirm content detection
+- Keep the application updated for latest Instagram compatibility
+
+ORGANIZATION TIPS:
+- Create separate folders for different types of content
+- Use descriptive folder names (Photos, Videos, Stories)
+- Regularly clean up the Downloads folder
+- Keep a backup of important downloaded content
+
+================================================================================
+
+Thank you for using **Hikari Insta Downloader**!  
+Made with ❤️ by Gary19gts  
+
+If Hikari has been helpful to you, please consider supporting its development:  
+☕ Buy me a coffee on Ko-fi → [https://ko-fi.com/gary19gts](https://ko-fi.com/gary19gts)  
+
+✨ Even the smallest donation can bring a big light during these tough times.  
+
+Even $1 can help more than you think 😀🙏
+
+Thank you so much for standing with me! ✨  
+
+
+
+For more information, see README.md
+License details: LICENSE file
