@@ -380,33 +380,8 @@ Click and wait for completion
 
 **[☕ Buy me a coffee on Ko-fi](https://ko-fi.com/gary19gts)**
 
-*Your support helps keep this project alive and improving! Even $1 makes a difference.* 🙏
-
-</div>
-
-**How donations help:**
-- 🏠 Cover development costs and living expenses
-- 💻 Maintain development environment and tools
-- 🌐 Keep internet access for updates and support
-- ☕ Fuel long coding sessions with coffee
-- 📚 Learn new technologies to improve the project
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to help:
-
-<div align="center">
-
-| Type | How to Help |
-|------|-------------|
-| 💰 **Financial** | [Support on Ko-fi](https://ko-fi.com/gary19gts) |
-| ⭐ **Visibility** | Star this repository |
-| 🐛 **Bug Reports** | Open issues with details |
-| 💡 **Features** | Suggest improvements |
-| 🔧 **Code** | Submit pull requests |
-| 📖 **Documentation** | Improve guides and docs |
+✨ Your support, even a tiny donation, can bring a big light during these tough times ✨. Thank you for standing with me.
+*Even $1 makes a difference.* 🙏
 
 </div>
 
